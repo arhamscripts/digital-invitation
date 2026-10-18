@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 64">
+  <defs>
+    <g id="half" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+      <!-- main scrolling vine -->
+      <path stroke-width="1.8" d="M318 32 C334 14 362 12 374 26 C382 36 372 46 362 41 C355 37 358 28 366 31"/>
+      <path stroke-width="1.4" d="M318 32 C336 46 360 50 384 44 C408 38 418 22 440 20 C462 18 470 34 488 34 C500 34 506 28 506 22 C506 16 498 15 496 20"/>
+      <path stroke-width="1.1" d="M440 20 C450 10 466 8 474 14"/>
+      <!-- tapering double rule to the edge -->
+      <path stroke-width="1.1" d="M488 34 C530 32.6 560 32.4 588 32.4"/>
+      <path stroke-width=".6" d="M500 38 C530 37 556 36.8 580 36.8"/>
+      <!-- leaves -->
+      <path fill="#000" stroke="none" d="M392 40 C396 31 405 27 412 28 C409 36 401 41 392 40 Z"/>
+      <path fill="#000" stroke="none" d="M404 47 C410 46 416 49 419 54 C413 55 407 53 404 47 Z"/>
+      <path fill="#000" stroke="none" d="M336 20 C339 12 347 8 353 9 C351 16 344 20 336 20 Z"/>
+      <path fill="#000" stroke="none" d="M454 26 C458 22 464 22 468 25 C464 29 458 29 454 26 Z"/>
+      <path fill="#000" stroke="none" d="M474 14 C478 10 484 10 487 13 C484 17 478 17 474 14 Z"/>
+      <!-- beads -->
+      <circle cx="593" cy="32.4" r="2.6" fill="#000" stroke="none"/>
+      <circle cx="530" cy="28.6" r="1.4" fill="#000" stroke="none"/>
+      <circle cx="550" cy="28.6" r="1.1" fill="#000" stroke="none"/>
+      <circle cx="568" cy="28.8" r=".8" fill="#000" stroke="none"/>
+      <circle cx="426" cy="16" r="1.6" fill="#000" stroke="none"/>
+    </g>
+  </defs>
+  <use href="#half"/>
+  <use href="#half" transform="translate(600 0) scale(-1 1)"/>
+  <!-- centre medallion -->
+  <circle cx="300" cy="32" r="15" fill="none" stroke="#000" stroke-width="1.6"/>
+  <circle cx="300" cy="32" r="19.5" fill="none" stroke="#000" stroke-width=".7"/>
+  <g fill="#000">
+    <path d="M300 18 C305 24 305 28 300 32 C295 28 295 24 300 18 Z"/>
+    <path d="M300 46 C305 40 305 36 300 32 C295 36 295 40 300 46 Z"/>
+    <path d="M286 32 C292 27 296 27 300 32 C296 37 292 37 286 32 Z"/>
+    <path d="M314 32 C308 27 304 27 300 32 C304 37 308 37 314 32 Z"/>
+    <path d="M290 22 C296 23 298 26 300 32 C294 30 291 28 290 22 Z"/>
+    <path d="M310 22 C304 23 302 26 300 32 C306 30 309 28 310 22 Z"/>
+    <path d="M290 42 C296 41 298 38 300 32 C294 34 291 36 290 42 Z"/>
+    <path d="M310 42 C304 41 302 38 300 32 C306 34 309 36 310 42 Z"/>
+  </g>
+  <circle cx="300" cy="6" r="2.4" fill="#000"/>
+  <circle cx="300" cy="58" r="2.4" fill="#000"/>
+</svg>

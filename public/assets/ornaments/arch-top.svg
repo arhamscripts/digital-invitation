@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 190">
+  <g fill="none" stroke="#000" stroke-linecap="round">
+    <path stroke-width="2.4" d="M8 190 C8 138 40 114 90 94 C130 77 150 48 160 10 C170 48 190 77 230 94 C280 114 312 138 312 190"/>
+    <path stroke-width="1" d="M20 190 C20 146 50 124 96 105 C134 89 152 62 160 34 C168 62 186 89 224 105 C270 124 300 146 300 190"/>
+  </g>
+  <!-- finial -->
+  <path d="M160 0 C163 4 164 6 160 11 C156 6 157 4 160 0 Z" fill="#000"/>
+  <!-- small cusps along the inner arch -->
+  <g fill="#000">
+    <circle cx="96" cy="105" r="2"/>
+    <circle cx="224" cy="105" r="2"/>
+    <circle cx="52" cy="128" r="1.6"/>
+    <circle cx="268" cy="128" r="1.6"/>
+    <circle cx="134" cy="80" r="1.6"/>
+    <circle cx="186" cy="80" r="1.6"/>
+  </g>
+</svg>

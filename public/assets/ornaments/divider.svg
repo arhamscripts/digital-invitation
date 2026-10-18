@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 40">
+  <defs>
+    <g id="half" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+      <!-- S-scroll leaving the centre -->
+      <path stroke-width="1.6" d="M161 21 C170 10 186 8 194 16 C200 22 196 30 189 28 C184 26 185 19 191 20"/>
+      <path stroke-width="1.2" d="M161 21 C170 28 182 31 192 30 C206 29 214 22 226 21"/>
+      <!-- tapering rule -->
+      <path stroke-width="1.1" d="M226 21 C246 20.4 266 20.4 292 20.6"/>
+      <path stroke-width=".6" d="M232 24 C250 23.6 266 23.6 284 23.8"/>
+      <!-- leaves -->
+      <path fill="#000" stroke="none" d="M204 18 C207 12 213 10 217 11 C215 16 210 19 204 18 Z"/>
+      <path fill="#000" stroke="none" d="M212 27 C216 26 220 28 222 31 C218 32 214 31 212 27 Z"/>
+      <path fill="#000" stroke="none" d="M174 14 C176 9 181 6 185 7 C184 11 179 14 174 14 Z"/>
+      <circle cx="296" cy="20.6" r="2.2" fill="#000" stroke="none"/>
+      <circle cx="240" cy="17.5" r="1.2" fill="#000" stroke="none"/>
+      <circle cx="258" cy="17.6" r=".9" fill="#000" stroke="none"/>
+    </g>
+  </defs>
+  <use href="#half"/>
+  <use href="#half" transform="translate(300 0) scale(-1 1)"/>
+  <!-- centre lotus -->
+  <path d="M150 4 C157 11 159 18 150 32 C141 18 143 11 150 4 Z" fill="#000"/>
+  <path d="M150 32 C146 24 138 22 133 24 C138 28 144 31 150 32 C156 31 162 28 167 24 C162 22 154 24 150 32 Z" fill="#000"/>
+  <circle cx="150" cy="37" r="2" fill="#000"/>
+</svg>
